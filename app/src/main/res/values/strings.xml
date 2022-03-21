@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Birds of a Feather</string>
+    <string name="signed_in_string">Signed In</string>
+    <string name="signed_out_string">Signed Out</string>
+    <string-array name="course_list">
+        <item>FA</item>
+        <item>WI</item>
+        <item>SP</item>
+        <item>SS1</item>
+        <item>SS2</item>
+        <item>SSS</item>
+    </string-array>
+    <string-array name="course_sizes">
+        <item>Tiny</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Huge</item>
+        <item>Gigantic</item>
+    </string-array>
+    <string-array name="filters">
+        <item>none</item>
+        <item>prioritize small class size</item>
+        <item>prioritize most recent</item>
+        <item>current qtr only</item>
+    </string-array>
+    <string name="title_activity_list_favorites">ListFavoritesActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

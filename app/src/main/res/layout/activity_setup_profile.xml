@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetupProfileActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="147dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/photoURL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@drawable/default_profile_picture"/>
+
+    <EditText
+        android:id="@+id/photoURL"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Profile Picture URL"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:letterSpacing="0.01"
+        android:onClick="onConfirmProfileClicked"
+        android:text="Confirm"
+        android:textAllCaps="false"
+        android:textColor="#6C6C6C"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photoURL"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:letterSpacing="0.01"
+        android:onClick="onCancelClicked"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="#6C6C6C"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photoURL"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:letterSpacing="0.01"
+        android:onClick="onContinueClicked"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="#6C6C6C"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photoURL"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="42dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/photoURL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
